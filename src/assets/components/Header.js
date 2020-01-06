@@ -12,11 +12,11 @@ class Header extends React.Component{
               <nav>
                   <ul>
                       <li><Link to="/netflix-react/"><strong>Accueil</strong></Link></li>
-                      <li><button>Séries</button></li>
-                      <li><button>Film</button></li>
-                      <li><button>Originaux</button></li>
-                      <li><button>Ajouts Récents</button></li>
-                      <li><button>Ma Liste</button></li>
+                      <li><Link to="/netflix-react/"><strong>Séries</strong></Link></li>
+                      <li><Link to="/netflix-react/"><strong>Films</strong></Link></li>
+                      <li><Link to="/netflix-react/"><strong>Originaux</strong></Link></li>
+                      <li><Link to="/netflix-react/"><strong>Ajouts Récents</strong></Link></li>
+                      <li><Link to="/netflix-react/"><strong>Ma Liste</strong></Link></li>
                       <li><Link to="/netflix-react/registration">S'enregistrer</Link></li>
                   </ul>
               </nav>
